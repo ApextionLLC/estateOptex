@@ -1,6 +1,7 @@
 {
-  "name": "git",
-  "version": "0.0.0",
+  "name": "Estate Optex",
+  "version": "0.0.1",
+  "author" : "Christopher Chapman",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
