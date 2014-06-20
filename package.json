@@ -2,7 +2,9 @@
   "name": "Estate Optex",
   "version": "0.0.1",
   "author" : "Christopher Chapman",
-  "dependencies": {},
+  "dependencies": {
+    "entypo" : "~0"
+    },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-autoprefixer": "~0.4.0",
