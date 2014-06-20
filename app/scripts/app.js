@@ -6,7 +6,7 @@ angular.module('gitApp', [
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'views/theme_index.html',
         controller: 'MainCtrl'
       })
       .otherwise({

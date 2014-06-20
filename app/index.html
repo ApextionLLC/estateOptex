@@ -18,7 +18,7 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css({.tmp,app}) styles/main.css -->
-    <link rel="stylesheet" href="bower_components/entypo/font/entypo.css" />
+    <link rel="stylesheet" href="styles/lib/entypo/css/entypo.css" />
     <link rel="stylesheet" href="styles/neon.css" />
     <link rel="stylesheet" href="styles/main.css" />
     <!-- endbuild -->
@@ -32,13 +32,13 @@
     <![endif]-->
 
   </head>
-  <body ng-app="gitApp">
+  <body class="page-body" ng-app="gitApp">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="container" ng-view=""></div>
+    <div class="wrap" ng-view=""></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -60,9 +60,7 @@
     <!-- bower:js -->
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="bower_components/gsap/src/uncompressed/TweenMax.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -71,10 +69,11 @@
 
 
 
+        <script src="scripts/lib/gsap/main-gsap.js"></script>
+        <script src="scripts/lib/bootstrap.min.js"></script>
         <script src="scripts/lib/joinable.js"></script>
         <script src="scripts/lib/resizeable.js"></script>
         <script src="scripts/lib/neon-slider.js"></script>
-        <script src="scripts/lib/neon-custom.js"></script>
 
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
