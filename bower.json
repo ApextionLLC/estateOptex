@@ -8,7 +8,8 @@
     "jquery": "~1.10.2",
     "bootstrap": "~3.0.3",
     "angular-route": "1.2.6",
-    "entypo": "*"
+    "entypo": "*",
+    "gsap": "~1.11.8"
   },
   "devDependencies": {
     "angular-mocks": "1.2.6",
